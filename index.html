@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Page d'atterrissage</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white text-gray-800">
+
+  <header class="bg-teal-600 text-white">
+    <div class="max-w-7xl mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-between">
+      <h1 class="text-2xl font-bold">Hello Informatique</h1>
+      <nav class="mt-4 md:mt-0">
+        <ul class="flex flex-row md:flex-row gap-4 text-base font-medium">
+          <li><a href="#accueil" class="hover:underline">Accueil</a></li>
+          <li><a href="#produits" class="hover:underline">Produits</a></li>
+          <li><a href="#contact" class="hover:underline">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="produits" class="py-12 px-4">
+    <div class="max-w-7xl mx-auto text-center">
+      <h2 class="text-3xl font-semibold mb-10">Nos Produits</h2>
+      <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+
+        <div class="fiche-produit">
+          <img src="Ordinateur_Portable.jpg" alt="Produit 1" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-2">Ordinateur Portable</h3>
+            <p class="text-sm mb-4">Asus PC Portable - 15,6" FHD - Intel Core i5-1035G1 <br>- RAM 8Go - 512Go SSD - Win 11 Gris.</p>
+            <button class="btn">Acheter maintenant</button>
+          </div>
+        </div>
+
+        <div class="fiche-produit">
+          <img src="Ordinateur_Fixe.jpg" alt="Produit 2" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-2">Ordinateur Fixe</h3>
+            <p class="text-sm mb-4">Apple Imac avec ecran retina Tout en un Core i5 3GHZ - Ram 8 Go - HDD</p>
+            <button class="btn">Acheter maintenant</button>
+          </div>
+        </div>
+
+        <div class="fiche-produit">
+          <img src="Imprimante_HP.jpg" alt="Produit 3" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-2">Impriante</h3>
+            <p class="text-sm mb-4">Imprimante Hp multifonction laser 135w</p>
+            <button class="btn">Acheter maintenant</button>
+          </div>
+        </div>
+
+        <div class="fiche-produit">
+          <img src="Modem_Routeur.jpg" alt="Produit 4" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-semibold mb-2">Modem Routeur</h3>
+            <p class="text-sm mb-4">Modem Routeur D-link Wireless N 300 ADSL2+ DSL-2740U</p>
+            <button class="btn">Acheter maintenant</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="bg-gray-100 py-6 mt-10 text-center text-sm text-gray-600">
+    <p>&copy; 2025 Team Digitale_Hello Informatique . Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
